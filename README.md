@@ -89,7 +89,7 @@ $ crontab -e
 
 Add the following line in editor to fill the form everyday at 10pm
 ```
-* 22 * * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 9
+0 22 * * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 9
 ```
 
 Other examples:
@@ -101,8 +101,8 @@ Everyday at 10:45 pm
 
 Every odd day (1) Did Nothing and even day (2) Self discovery at 10pm
 ```
-* 22 1-31/2 * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 1
-* 22 2-31/2 * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 2
+0 22 1-31/2 * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 1
+0 22 2-31/2 * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 2
 ```
 
 To check meaning of custom crontab expression checkout https://crontab.guru/
