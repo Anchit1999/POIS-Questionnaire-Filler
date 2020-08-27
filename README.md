@@ -58,6 +58,11 @@ For example, to submit **(9) Couldn't find time** in the form, run the following
 $ python pois.py -u anchit.gupta -p <password> -o 9
 ```
 
+For students account, run the following command:
+```
+$ python pois.py -u name.surname -p <password> -t s -o 9
+```
+
 ## Finally adding this to cron job
 
 Open crontab file:
