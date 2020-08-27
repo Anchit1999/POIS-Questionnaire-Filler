@@ -74,4 +74,11 @@ Add the following line in editor to fill the form everyday at 10pm
 ```
 * 22 * * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 9
 ```
+
+Other examples:
+
+45 22 * * * <command> Everyday at 10:45 pm
+
+To check meaning of custom crontab expression checkout https://crontab.guru/
+
 ![crontab file](./pois.png)
