@@ -108,3 +108,5 @@ Every odd day (1) Did Nothing and even day (2) Self discovery at 10pm
 To check meaning of custom crontab expression checkout https://crontab.guru/
 
 ![crontab file](./pois.png)
+
+P.S This cronjob works for me, If it does not works for you try this https://pypi.org/project/python-crontab/
