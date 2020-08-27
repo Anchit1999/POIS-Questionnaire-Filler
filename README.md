@@ -20,6 +20,18 @@ $ export PATH=$PATH:/usr/local/bin/chromedriver
 
 The above steps are for Google Chrome, replace chromedriver with geckodriver for Firefox browser
 
+## Check the installation
+```
+$ python
+>>> import selenium
+>>> from selenium import webdriver
+>>> 
+>>> 
+>>> driver = webdriver.Chrome() # for chrome
+>>> driver = webdriver.Firefox() # for firefox
+```
+The respective browser should be opened after running above piece of code.
+
 ## Running the code
 
 ```
