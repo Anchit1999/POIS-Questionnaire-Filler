@@ -75,7 +75,8 @@ Add the following line in editor to fill the form everyday at 10pm
 * 22 * * * /usr/bin/python3 pois.py -u anchit.gupta -p <password> -o 9
 ```
 
-Other examples:
+Other example:
+
 Everyday at 10:45 pm
 ```
 45 22 * * * <command> 
