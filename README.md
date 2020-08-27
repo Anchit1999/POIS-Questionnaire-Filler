@@ -76,9 +76,10 @@ Add the following line in editor to fill the form everyday at 10pm
 ```
 
 Other examples:
-
-45 22 * * * <command> Everyday at 10:45 pm
-
+Everyday at 10:45 pm
+```
+45 22 * * * <command> 
+```
 To check meaning of custom crontab expression checkout https://crontab.guru/
 
 ![crontab file](./pois.png)
